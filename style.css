@@ -22,6 +22,7 @@
     margin: 0 auto;
 }
 .cards {
+    cursor: pointer;
     height: 225px;
     width: 150px;
     outline: 1px solid black;
@@ -51,6 +52,7 @@
     margin: 20px;
 }
 #playAgain {
+    cursor: pointer;
     font-size: 1.5em;
     padding: 20px;
     margin: 20px;
