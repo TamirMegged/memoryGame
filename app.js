@@ -1,5 +1,5 @@
-const colors = ['red', 'orange', 'yellow', 'green', 'blue', 'purple'];
-const cardsLength = 12;
+const colors = ['red', 'orange', 'yellow', 'green', 'blue', 'purple', 'black', 'white', 'brown'];
+const cardsLength = colors.length * 2;
 let choice1;
 let choice2;
 
@@ -86,7 +86,7 @@ function allowOnclick() {
 //Check and alert if needed - end of the game
 function endGame() {
     var success = document.getElementsByClassName('success');
-    if (success.length === 12) {
+    if (success.length === cardsLength) {
         document.getElementById('endOfGame').style.visibility = 'visible';
     }
 }

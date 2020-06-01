@@ -16,7 +16,7 @@
     flex-wrap: wrap;
     overflow: hidden;
     width: 1020px;
-    height: 490px;
+    /* height: 490px; */
     border: 10px black solid;
     background-color: white;
     margin: 0 auto;
