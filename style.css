@@ -12,20 +12,21 @@
     margin: 10px;
 }
 #gameBoard {
+    border-radius: 10px;
     display: flex;
     flex-wrap: wrap;
     overflow: hidden;
-    width: 1020px;
-    /* height: 490px; */
+    width: 1032px;
     border: 10px black solid;
     background-color: white;
     margin: 0 auto;
 }
 .cards {
+    border-radius: 10px;
     cursor: pointer;
     height: 225px;
     width: 150px;
-    outline: 1px solid black;
+    border: 1px solid black;
     margin: 10px;
 }
 .hidden {

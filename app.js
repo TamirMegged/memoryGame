@@ -1,4 +1,4 @@
-const colors = ['red', 'orange', 'yellow', 'green', 'blue', 'purple', 'black', 'white', 'brown'];
+const colors = ['red', 'orange', 'yellow', 'green', 'blue', 'purple'];
 const cardsLength = colors.length * 2;
 let choice1;
 let choice2;
